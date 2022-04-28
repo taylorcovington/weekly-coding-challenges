@@ -1,9 +1,17 @@
 import './App.css';
-import Rating from './challenges/4-28-22';
+import RatingCard from './challenges/4-28-22/RatingCard';
 
 function App() {
   return (
-    <Rating />
+    <div 
+    style={{ 
+      display: 'flex',
+      justifyContent: 'center',
+      margin: '0 auto',
+      }}
+    >
+      <RatingCard />
+    </div>
   );
 }
 
